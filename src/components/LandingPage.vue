@@ -26,7 +26,7 @@
           <v-btn
             @click="$router.push('/')"
             color="primary"
-            class="mb-2"
+            class="mb-2 "
             large
             outlined
             
@@ -87,7 +87,7 @@ export default {
 /* You can still add custom styling here if needed */
 
 #app {
-  background-image: url('/images/d2background1.png'); /* Update the path if necessary */
+  background-image: url('/images/background2.png'); /* Update the path if necessary */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -96,6 +96,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 20px;
   
  
 }

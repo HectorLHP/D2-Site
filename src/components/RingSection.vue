@@ -85,12 +85,12 @@
         />
 
         <!-- INSTRUCTIONS -->
-
         <v-col
-                  
-          class="d-flex flex-column justify-center mt-10 ml-4"
+        
+        class="d-flex flex-column justify-center mt-10 ml-4"
         >
-          <div class="explanation-text mt-4">
+        <v-sheet class="bg-grey-darken-2 pa-6" rounded>
+          
             <h4>INFO</h4>
             <p>
               This is just a guide for approximate value, in some cases a 3.5
@@ -112,7 +112,8 @@
               <li><strong>5.5 Points:</strong> Elite. Very valuable.</li>
               <li><strong>6 Points:</strong> Top-tier, trophy item.</li>
             </ul>
-          </div>
+          
+        </v-sheet>
         </v-col>
       </v-row>
     </v-container>
@@ -229,6 +230,7 @@ const clearInputs = () => {
   justify-content: center;
   align-items: center;
   overflow: hidden; /* Prevents scrollbars if the background is larger than the screen */
+  padding: 30px;
 }
 .title-image {
   max-width: 100%; /* Ensure the image fits within its container */
@@ -271,8 +273,4 @@ h3 {
   margin-top: 0px;
 }
 
-.explanation-text {
-  background-color: rgba(13, 15, 13, 0.8);;
-  color: wheat;
-}
 </style>
